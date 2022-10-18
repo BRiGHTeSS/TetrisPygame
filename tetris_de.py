@@ -278,7 +278,7 @@ def draw_window(surface, score=0):
  
     # draw grid and border
     draw_grid(surface, 20, 10)
-    pygame.draw.rect(surface, (255, 0, 0), (top_left_x, top_left_y, play_width, play_height), 5)
+    pygame.draw.rect(surface, (23, 23, 255), (top_left_x, top_left_y, play_width, play_height), 5)
     # pygame.display.update()
  
  
@@ -405,6 +405,9 @@ def main_menu():
  
  
 win = pygame.display.set_mode((s_width, s_height))
-pygame.display.set_caption('TetrisByPygame')
+# Set Name & Icon game
+pygame.display.set_caption('TetrisByPygame_DarkEdi')
+icon = pygame.image.load('half-moon.png')
+pygame.display.set_icon(icon)
  
 main_menu()  # start game
