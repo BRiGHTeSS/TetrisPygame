@@ -1,4 +1,4 @@
-# TetrisPygame
+# 🐍 TetrisPygame
 
 <h3>OK this project is my 2nd game project that i'm created</h3>
 <h6>I think you'll who watched this repo are going to know what engine game I used to create this game, so yeah, I used pygame.</h6>
